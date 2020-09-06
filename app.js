@@ -1,8 +1,4 @@
-if(process.env.NODE_ENV !== 'production') {
-    require('dotenv').parse()
-}
-
-// require('dotenv').config()
+require('dotenv').config()
 const express = require("express")
 const expressLayouts = require("express-ejs-layouts")
 const indexRouter = require("./routes/index")
